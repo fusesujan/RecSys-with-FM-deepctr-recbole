@@ -1,0 +1,8 @@
+model: BPR
+dataset: movielens.csv
+epochs: 10
+eval_setting: RO_RS
+negative_sampler: random
+batch_size: 64
+lr: 0.01
+topk: 10
